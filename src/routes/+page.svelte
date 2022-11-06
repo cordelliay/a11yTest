@@ -1,4 +1,12 @@
-<h1 class="text-3xl font-bold underline">Welcome to SvelteKit</h1>
-<p class="font-bold">
-  Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation aljdkflsdjf as
-</p>
+<script>
+  import SectionHeading from '@comp/sectionHeading.svelte';
+  import Session from '@home/sessions.svelte';
+  import { tutorialTitle } from '@stores/stores';
+</script>
+
+<main>
+  <SectionHeading sub={$tutorialTitle.subheading}>
+    {$tutorialTitle.heading}
+  </SectionHeading>
+  <Session part="part1" />
+</main>
