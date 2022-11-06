@@ -1,7 +1,7 @@
 import { publish } from 'gh-pages';
 
 publish(
- 'build', // path to public directory
+ 'docs', // path to public directory
  {
   branch: 'gh-pages',
   repo: 'https://github.com/cordelliay/a11yTest.git',
