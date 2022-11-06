@@ -1,7 +1,4 @@
 <script>
-
 </script>
 
-<main class="section">
-
-</main>
+<main class="section">Part 1</main>
