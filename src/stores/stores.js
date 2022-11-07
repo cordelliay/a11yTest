@@ -6,7 +6,7 @@ export let tutorials = readable([
     subheading: 'Introduction to Digital Accessiblity',
     destination: 'part-1',
     slides:
-      'https://docs.google.com/presentation/d/17DG8LYOM50N_KjbiikeJRbCeNpTg4nKEGiZWT1v-T1U/edit?usp=sharing',
+      'https://docs.google.com/presentation/d/1oP6NiFIxSAnRAd-yK-7NEWWrgwzdVSYZrnn8YkpaGNg/edit?usp=sharing',
     resources: [
       {
         name: 'Exercise 1: Rating',
@@ -65,7 +65,7 @@ export let tutorials = readable([
     subheading: 'Key Areas of Focus',
     destination: 'part-2',
     slides:
-      'https://docs.google.com/presentation/d/1Njf3JG9P86uCoHWk8jyYNMIAqlt07gm2mCWzu9jXYlw/edit?usp=sharing',
+      'https://docs.google.com/presentation/d/1hTb5O_xTpYvKxkX_vjkvxHtStyoAWjP8T8v2yvQl_tM/edit?usp=sharing',
     resources: [
       {
         type: 'Exercise',
@@ -189,7 +189,7 @@ export let tutorials = readable([
     subheading: 'Great Expectations',
     destination: 'part-3',
     slides:
-      'https://docs.google.com/presentation/d/13rtFsVgNjaxTbmOcCP1uAGuCxTzmd-XPEARhsBSsGSE/edit?usp=sharing',
+      'https://docs.google.com/presentation/d/1n9EysUS1ZoPZJFj9O610gfNs940hsk-pnGtfWL8A9as/edit?usp=sharing',
     resources: [
       {
         type: 'Excercise',
@@ -243,7 +243,7 @@ export let tutorials = readable([
     subheading: 'Best Practices',
     destination: 'part-4',
     slides:
-      'https://docs.google.com/presentation/d/1IycGcLgkkwz6FGoNIu3s-MGYsyD9gR_qBQDSZqh48EI/edit?usp=sharing',
+      'https://docs.google.com/presentation/d/1RZKBOhhLxtiSnzbQQxGlDID9srHjieAaAGkoRwX3w3I/edit?usp=sharing',
     resources: [
       {
         type: 'Tool',
