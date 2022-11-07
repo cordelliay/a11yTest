@@ -73,6 +73,11 @@ export let tutorials = readable([
         href: 'https://codepen.io/cordellia-so5/pen/rNKMVae'
       },
       {
+        type: 'Exercise',
+        name: 'Exercise 1: Color [DEBUG]',
+        href: 'https://cdpn.io/pen/debug/rNKMVae'
+      },
+      {
         type: 'Resource',
         name: 'Color: WebAIM Overview',
         href: 'https://webaim.org/articles/contrast/'
@@ -92,6 +97,7 @@ export let tutorials = readable([
         name: 'Exercise 2: Understanding prefers-color-scheme',
         href: 'https://codepen.io/MrGrigri/pen/XQmWBv'
       },
+
       {
         type: 'Exercise',
         name: 'Exercise 3: Understanding prefers-reduced-motion',
@@ -116,6 +122,11 @@ export let tutorials = readable([
         type: 'Exercise',
         name: 'Exercise 4: Alternative Text',
         href: 'https://codepen.io/cordellia-so5/pen/ZERpGoL'
+      },
+      {
+        type: 'Exercise',
+        name: 'Exercise 4: Alternative Text [DEBUG]',
+        href: 'https://cdpn.io/pen/debug/ZERpGoL'
       },
       {
         type: 'Example',
@@ -168,6 +179,11 @@ export let tutorials = readable([
         href: 'https://codepen.io/cordellia-so5/pen/mdKrEdN'
       },
       {
+        type: 'Excercise',
+        name: 'Excercise 7: Practiing with Forms [DEBUG]',
+        href: 'https://cdpn.io/pen/debug/mdKrEdN'
+      },
+      {
         type: 'Resource',
         name: 'Making Disabled Buttons more Accessible.',
         href: 'https://css-tricks.com/making-disabled-buttons-more-inclusive'
@@ -197,6 +213,11 @@ export let tutorials = readable([
         href: 'https://codepen.io/cordellia-so5/pen/bGKVdwW'
       },
       {
+        type: 'Excercise',
+        name: 'Exercise 1: Details Expectations [DEBUG]',
+        href: 'https://cdpn.io/pen/debug/bGKVdwW'
+      },
+      {
         type: 'Excerise',
         name: 'Exercise 2: WAI-ARIA: Introduction to Landmarks',
         href: 'https://www.w3.org/WAI/ARIA/apg/example-index/landmarks/index.html '
@@ -213,8 +234,18 @@ export let tutorials = readable([
       },
       {
         type: 'Excercise',
+        name: 'Excercise 3: Seimantic Details (Disclosure) [DEBUG]',
+        href: 'https://cdpn.io/pen/debug/ExRVaOR'
+      },
+      {
+        type: 'Excercise',
         name: 'Excercise 4: WAI-ARIA Details',
         href: 'https://codepen.io/cordellia-so5/pen/NWzGPLr'
+      },
+      {
+        type: 'Excercise',
+        name: 'Excercise 4: WAI-ARIA Details [DEBUG]',
+        href: 'https://cdpn.io/pen/debug/NWzGPLr'
       },
       {
         type: 'Resource',
@@ -225,6 +256,11 @@ export let tutorials = readable([
         type: 'Excercise',
         name: 'Excercise 5: ARIA errors',
         href: 'https://codepen.io/cordellia-so5/pen/LYrNOJG'
+      },
+      {
+        type: 'Excercise',
+        name: 'Excercise 5: ARIA errors [DEBUG]',
+        href: 'https://cdpn.io/pen/debug/LYrNOJG'
       },
       {
         type: 'Tool',

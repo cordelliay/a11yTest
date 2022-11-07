@@ -1,6 +1,9 @@
 <script>
+  import Frame from '@comp/frame.svelte';
   import SessionOverview from '@comp/sessionOverview.svelte';
   let key = 3;
 </script>
 
-<SessionOverview {key} />
+<Frame>
+  <SessionOverview {key} />
+</Frame>
