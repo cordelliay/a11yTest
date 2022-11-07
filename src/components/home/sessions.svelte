@@ -1,5 +1,5 @@
 <script>
-  import SectionSubHeading from '@comp/sectionSubHeading.svelte';
+  import SectionSubHeading from '@comp/sectionSubHeader.svelte';
   import SessionDetails from '@comp/sessionDetails.svelte';
   import { tutorials } from '@stores/stores';
 </script>

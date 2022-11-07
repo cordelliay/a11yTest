@@ -5,7 +5,8 @@ export let tutorials = readable([
     heading: 'Part 1',
     subheading: 'Introduction to Digital Accessiblity',
     destination: 'part-1',
-    slides: '',
+    slides:
+      'https://docs.google.com/presentation/d/17DG8LYOM50N_KjbiikeJRbCeNpTg4nKEGiZWT1v-T1U/edit?usp=sharing',
     resources: [
       {
         name: 'Exercise 1: Rating',
@@ -63,7 +64,8 @@ export let tutorials = readable([
     heading: 'Part 2',
     subheading: 'Key Areas of Focus',
     destination: 'part-2',
-    slides: '',
+    slides:
+      'https://docs.google.com/presentation/d/1Njf3JG9P86uCoHWk8jyYNMIAqlt07gm2mCWzu9jXYlw/edit?usp=sharing',
     resources: [
       {
         type: 'Exercise',
@@ -186,13 +188,104 @@ export let tutorials = readable([
     heading: 'Part 3',
     subheading: 'Great Expectations',
     destination: 'part-3',
-    slides: ''
+    slides:
+      'https://docs.google.com/presentation/d/13rtFsVgNjaxTbmOcCP1uAGuCxTzmd-XPEARhsBSsGSE/edit?usp=sharing',
+    resources: [
+      {
+        type: 'Excercise',
+        name: 'Exercise 1: Details Expectations',
+        href: 'https://codepen.io/cordellia-so5/pen/bGKVdwW'
+      },
+      {
+        type: 'Excerise',
+        name: 'Exercise 2: WAI-ARIA: Introduction to Landmarks',
+        href: 'https://www.w3.org/WAI/ARIA/apg/example-index/landmarks/index.html '
+      },
+      {
+        type: 'Resource',
+        name: 'Moz: All Semantic Elements',
+        href: 'https://developer.mozilla.org/en-US/docs/Web/HTML/Element'
+      },
+      {
+        type: 'Excercise',
+        name: 'Excercise 3: Seimantic Details (Disclosure)',
+        href: 'https://codepen.io/cordellia-so5/pen/ExRVaOR'
+      },
+      {
+        type: 'Excercise',
+        name: 'Excercise 4: WAI-ARIA Details',
+        href: 'https://codepen.io/cordellia-so5/pen/NWzGPLr'
+      },
+      {
+        type: 'Resource',
+        name: 'WAI-ARIA Patters Guide',
+        href: 'https://www.w3.org/WAI/ARIA/apg/patterns/'
+      },
+      {
+        type: 'Excercise',
+        name: 'Excercise 5: ARIA errors',
+        href: 'https://codepen.io/cordellia-so5/pen/LYrNOJG'
+      },
+      {
+        type: 'Tool',
+        name: 'W3C Validator',
+        href: 'https://validator.w3.org/nu/'
+      },
+      {
+        type: 'Resource',
+        name: 'ARIA and HTML element compatability',
+        href: 'https://www.w3.org/TR/html-aria/'
+      }
+    ]
   },
   {
     heading: 'Part 4',
     subheading: 'Best Practices',
     destination: 'part-4',
-    slides: ''
+    slides:
+      'https://docs.google.com/presentation/d/1IycGcLgkkwz6FGoNIu3s-MGYsyD9gR_qBQDSZqh48EI/edit?usp=sharing',
+    resources: [
+      {
+        type: 'Tool',
+        name: '@axe-core Github',
+        href: 'https://github.com/dequelabs/axe-core-npm'
+      },
+      {
+        type: 'Tool',
+        name: 'Jest-Axe Github',
+        href: 'https://github.com/NickColley/jest-axe'
+      },
+      {
+        type: 'Tool',
+        name: 'Lighthouse CLI Github',
+        href: 'https://github.com/GoogleChrome/lighthouse-ci'
+      },
+      {
+        type: 'Resource',
+        name: 'WCAG Guide to Developing an Accessibilty Statement',
+        href: 'https://www.w3.org/WAI/planning/statements/'
+      },
+      {
+        type: 'Excercise',
+        name: 'Accessibility Conformance Testing',
+        href: 'https://nomouse.org/'
+      },
+      {
+        type: 'Resource',
+        name: 'A11y Overlay Fact Sheet',
+        href: 'https://overlayfactsheet.com/'
+      },
+      {
+        type: 'Resource',
+        name: 'ACT Guidelines',
+        href: 'https://www.w3.org/WAI/standards-guidelines/act/rules/'
+      },
+      {
+        type: 'Resource',
+        name: 'A11y Project Checklist',
+        href: 'https://www.a11yproject.com/checklist/'
+      }
+    ]
   }
 ]);
 

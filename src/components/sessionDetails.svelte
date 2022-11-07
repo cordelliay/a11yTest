@@ -6,5 +6,5 @@
 
 <div class="details">
   <Hyperlink href="{base}/{part.destination}">{part.heading}: Session Overview</Hyperlink>
-  <Hyperlink href="#">Slides: {part.subheading}</Hyperlink>
+  <Hyperlink href={part.slides}>Slides: {part.subheading}</Hyperlink>
 </div>

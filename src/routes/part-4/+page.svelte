@@ -3,6 +3,4 @@
   let key = 3;
 </script>
 
-<main class="section">
-  <SessionOverview {key} />
-</main>
+<SessionOverview {key} />

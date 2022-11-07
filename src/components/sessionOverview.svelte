@@ -1,6 +1,6 @@
 <script>
   import Hyperlink from '@comp/hyperlink.svelte';
-  import SectionHeading from '@comp/sectionheading.svelte';
+  import SectionHeading from '@comp/sectionHeader.svelte';
   import { tutorials } from '@stores/stores';
 
   export let key = 0;
