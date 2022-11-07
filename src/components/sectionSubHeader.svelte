@@ -11,7 +11,6 @@
   {/if}
 </h2>
 
-
 <style>
   h2 {
     margin-left: -2rem;

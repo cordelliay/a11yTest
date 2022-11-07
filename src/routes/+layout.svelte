@@ -1,7 +1,17 @@
-<slot />
+<script>
+  import Footer from '@comp/footer.svelte';
+  import Header from '@comp/header.svelte';
+</script>
+
+<Header />
+<main>
+  <slot />
+</main>
+<Footer />
 
 <style>
-  :global(body) {
-    margin: 3rem 4rem;
+  main {
+    padding: 0rem 4rem 4rem 4rem;
+    min-height: calc(100vh - 15rem);
   }
 </style>

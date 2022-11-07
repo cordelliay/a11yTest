@@ -1,17 +1,10 @@
 <script>
-  import SectionSubHeading from '@comp/sectionSubHeading.svelte';
-  import Hyperlink from '@comp/hyperlink.svelte';
-  import { base } from '$app/paths';
+  import SectionSubHeading from '@comp/sectionSubHeader.svelte';
+  import SessionDetails from '@comp/sessionDetails.svelte';
   import { tutorials } from '@stores/stores';
 </script>
 
 {#each $tutorials as part}
-  <SectionSubHeading sub={part.subheading}>{part.heading}: </SectionSubHeading>
-  <div class="details">
-    <Hyperlink href="{base}/{part.destination}">{part.heading}: Session Overview</Hyperlink>
-    <Hyperlink href="#">Slides: {part.subheading}</Hyperlink>
-  </div>
+  <SectionSubHeading sub={part.subheading}>{part.heading}:</SectionSubHeading>
+  <SessionDetails {part} />
 {/each}
-
-<style>
-</style>

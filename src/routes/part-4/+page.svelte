@@ -1,1 +1,6 @@
-<h1>Part 4</h1>
+<script>
+  import SessionOverview from '@comp/sessionOverview.svelte';
+  let key = 3;
+</script>
+
+<SessionOverview {key} />
