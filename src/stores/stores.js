@@ -276,7 +276,7 @@ export let tutorials = readable([
   },
   {
     heading: 'Part 4',
-    subheading: 'Best Practices',
+    subheading: 'Strategies for Success',
     destination: 'part-4',
     slides:
       'https://docs.google.com/presentation/d/1RZKBOhhLxtiSnzbQQxGlDID9srHjieAaAGkoRwX3w3I/edit?usp=sharing',
